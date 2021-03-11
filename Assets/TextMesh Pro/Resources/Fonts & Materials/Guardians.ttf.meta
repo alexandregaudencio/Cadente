@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 4a4afc7543679e44bbaaf143c3b27e64
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Guardians
+  fontNames:
+  - Guardians
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: a5bf3897c43317f46872afd75f981a13, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

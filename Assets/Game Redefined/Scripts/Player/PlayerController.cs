@@ -15,6 +15,9 @@ public class PlayerController : MonoBehaviour
     public bool gameStarted = false;
 
     private PlayerInput playerInput;
+    // private GameController gameController;
+
+      public GameObject limits;
 
     void Start()
     {
@@ -23,14 +26,6 @@ public class PlayerController : MonoBehaviour
         // comet.gameObject.GetComponent<TrailRenderer>().enabled = true;
         comet.GetComponent<TrailRenderer>().enabled = true;
     }
-
-    void FixedUpdate()
-    {
-
-
-    }
-
-
 
     void Update()
     {
@@ -103,6 +98,7 @@ public class PlayerController : MonoBehaviour
 
     }
 
+    
 
 
 }

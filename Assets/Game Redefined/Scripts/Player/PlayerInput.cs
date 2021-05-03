@@ -5,27 +5,6 @@ using UnityEngine;
 public class PlayerInput : MonoBehaviour
 {
 
-
-    
-
-    // Start is called before the first frame update
-    private struct PlayerInputConstants {
-        public const string Horizontal = "Horizontal";
-        public const string Jump = "Jump";
-        public const string Vertical = "Vertical";
-
-    }
-
-
-
-    void Update()
-    {
-        // Debug.Log(isInputButtonDown());
-        
-    }
-   
-
-
     public bool isInputButtonDown() {
         bool isTouchDown = Input.GetTouch(0).phase == TouchPhase.Began ? isTouchDown = true : isTouchDown = false;
         bool isMouseDown = Input.GetMouseButtonDown(0);
